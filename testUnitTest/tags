@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSERT_EQ	test_harness.h	89;"	d
+ASSERT_FALSE	test_harness.h	88;"	d
+ASSERT_GE	test_harness.h	91;"	d
+ASSERT_GT	test_harness.h	92;"	d
+ASSERT_LE	test_harness.h	93;"	d
+ASSERT_LT	test_harness.h	94;"	d
+ASSERT_NE	test_harness.h	90;"	d
+ASSERT_TRUE	test_harness.h	87;"	d
+BINARY_OP	test_harness.h	59;"	d
+BINARY_OP	test_harness.h	75;"	d
+Is	test_harness.h	/^  Tester& Is(bool b, const char* msg) {$/;"	f	class:handy::test::Tester
+LIBRARY	Makefile	/^LIBRARY = \/home\/txh\/Github\/handy\/libhandy.a$/;"	m
+RandomSeed	test_harness.cc	/^int RandomSeed() {$/;"	f	namespace:handy::test
+RegisterTest	test_harness.cc	/^bool RegisterTest(const char* base, const char* name, void (*func)()) {$/;"	f	namespace:handy::test
+RunAllTests	test_harness.cc	/^int RunAllTests(const char* matcher) {$/;"	f	namespace:handy::test
+TCONCAT	test_harness.h	96;"	d
+TCONCAT1	test_harness.h	97;"	d
+TEST	test_harness.h	99;"	d
+TEST	util.ut.cc	/^TEST(test::TestBase, ExitCaller) {$/;"	f
+TEST	util.ut.cc	/^TEST(test::TestBase, static_func) {$/;"	f
+TEST	util.ut.cc	/^TEST(test::TestBase,txhTest)$/;"	f
+TEST_OBJECTS	Makefile	/^TEST_OBJECTS = $(TEST_SOURCES:.cc=.o)$/;"	m
+TEST_SOURCES	Makefile	/^TEST_SOURCES = $(shell find .\/ -name '*.cc')$/;"	m
+Test	test_harness.cc	/^struct Test {$/;"	s	namespace:handy::test::__anon1	file:
+TestBase	test_harness.h	/^class TestBase {};$/;"	c	namespace:handy::test
+Tester	test_harness.h	/^  Tester(const char* f, int l)$/;"	f	class:handy::test::Tester
+Tester	test_harness.h	/^class Tester {$/;"	c	namespace:handy::test
+TmpDir	test_harness.cc	/^std::string TmpDir() {$/;"	f	namespace:handy::test
+base	test_harness.cc	/^  const char* base;$/;"	m	struct:handy::test::__anon1::Test	file:
+fname_	test_harness.h	/^  const char* fname_;$/;"	m	class:handy::test::Tester
+func	test_harness.cc	/^  void (*func)();$/;"	m	struct:handy::test::__anon1::Test	file:
+handy	test_harness.cc	/^namespace handy {$/;"	n	file:
+handy	test_harness.h	/^namespace handy {$/;"	n
+line_	test_harness.h	/^  int line_;$/;"	m	class:handy::test::Tester
+main	test.cc	/^int main(int argc, char** argv) {$/;"	f
+name	test_harness.cc	/^  const char* name;$/;"	m	struct:handy::test::__anon1::Test	file:
+ok_	test_harness.h	/^  bool ok_;$/;"	m	class:handy::test::Tester
+operator <<	test_harness.h	/^  Tester& operator<<(const V& value) {$/;"	f	class:handy::test::Tester
+ss_	test_harness.h	/^  std::stringstream ss_;$/;"	m	class:handy::test::Tester
+test	test_harness.cc	/^namespace test {$/;"	n	namespace:handy	file:
+test	test_harness.h	/^namespace test {$/;"	n	namespace:handy
+tests	test_harness.cc	/^std::vector<Test>* tests;$/;"	m	namespace:handy::test::__anon1	file:
+~Tester	test_harness.h	/^  ~Tester() {$/;"	f	class:handy::test::Tester
