@@ -11,6 +11,6 @@ string makeKey(const string &section,const string &name)
 
 int main()
 {
-	cout << makeKey("section","name");
+	cout << makeKey("section","name") << endl;
 	return 0;	
 }

@@ -22,6 +22,7 @@ void go()
     std::unique_lock <std::mutex> lck(mtx);
     ready = true; // 设置全局标志位为 true.
     cv.notify_all(); // 唤醒所有线程.
+	std::cout << "notify all" << std::endl;
 }
 
 int main()
